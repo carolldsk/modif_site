@@ -886,12 +886,12 @@ ul {
 		font-size: 16px;
 	}
 	#loginpanel i {
-		color: #fff;
+		color: #337ab7;
 		font-size: 21px;
 		margin-top: 2px;
 	}
 	.text-logo {
-		color: #fff;
+		color: #337ab7;
 		display: inline-block;
 		font-family: "PT Sans",sans-serif;
 		font-size: 24px;
@@ -901,7 +901,7 @@ ul {
 		text-transform: uppercase;
 	}
 	.text-logo:hover {
-		color: #ccc;
+		color: #337ab7;
 	}
 	#slidepanel { 
 		display: none;
