@@ -349,9 +349,21 @@ ul {
 .footer-main {
     background: url('./images/bg-footer.jpg') right center;
     background-size: 100%;
-    padding-top: 76px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     border-top: 1px solid #d3d3d3;
     color: #fff
+}
+.footer-main::before{
+    background-color: #f1efeb;
+    opacity: 0.3;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 /* -- Contact Details */
