@@ -187,7 +187,6 @@ ul {
     background-color: #d1bd9c; 
     margin-bottom: 40px;
 }
-
 /* ## Header */
 #slidepanel { 
     display: block; 
@@ -347,12 +346,13 @@ ul {
 
 /* ## Footer */
 .footer-main {
-    background: url('./images/bg-footer.jpg') right center;
+    background: url('./images/tester.png') right center;
     background-size: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     border-top: 1px solid #d3d3d3;
-    color: #fff
+    color: #fff;
+    background-repeat: no-repeat;
 }
 .footer-main::before{
     background-color: #f1efeb;
@@ -863,6 +863,13 @@ ul {
     }
     .page-banner p {
         font-size: 15px;
+    }
+
+    .font-mobile{
+        font-size: 15px;
+    }
+    .nopaddingmobile{
+        padding: 0;
     }
 }
 
