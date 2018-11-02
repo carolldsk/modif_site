@@ -774,6 +774,12 @@ ul {
     .widget.widget-newsletter {
         margin-top: 20px;
     }
+    .icon-contact{
+        max-width:80px;
+    }
+    .lessmargin-left{
+        margin-left: -40px;
+    }
 }
 
 /* -- max-width: 767 */
@@ -866,11 +872,12 @@ ul {
     }
 
     .font-mobile{
-        font-size: 15px;
+        font-size: 14px;
     }
     .nopaddingmobile{
         padding: 0;
     }
+    
 }
 
 /* -- min-width: 319 to max-width: 479 */
@@ -889,6 +896,12 @@ ul {
     }
     .about-author {
         margin-top: 35px;
+    }
+    .font-mobile{
+        font-size: 13px;
+    }
+    .icon-contact{
+        max-width:80px;
     }
 }
 
